@@ -2,10 +2,11 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <ul>
-      <li><router-link :to="{name: 'sales'}">Total</router-link></li>
       <li><router-link :to="{name: 'inicio'}">Inicio</router-link></li>
       <li><router-link :to="{name: 'search'}">Busqueda</router-link></li>
       <li><router-link :to="{name: 'sales'}">Ventas</router-link></li>
+      <li><router-link :to="{name: 'total'}">Total</router-link></li>
+      <li><router-link :to="{name: 'e404'}">Error 404 - Página no encontrada.</router-link></li>
     </ul>
     <transition name="vista">
       <router-view></router-view>
